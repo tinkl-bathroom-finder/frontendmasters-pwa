@@ -1,0 +1,25 @@
+{
+    "id": "/",
+    "start_url": "/?from=pwa",
+    "scope": "/", //if you don't define the current scope, it will take the folder
+    "name": "tinkl Bathroom Finder",
+    "short_name": "tinkl",
+    "display": "standalone", // most important property!!
+    "theme_color": "#5272F2", // stay with RGB colors, no transparency. Otherwise it might not work on all platforms
+    "description": "The best notepad app for taking notes during your FrontEnd Masters course",
+    "screenshots": [
+        {
+            "src": "screenshot.png",
+            "sizes": "760x548", 
+            "type": "image/png",
+            "form_factor": "wide" // wide is for desktop, narrow is for mobile
+        }
+    ],
+    "icons": [
+        {
+            "src": "icons/icons-512.png",
+            "sizes": "512x512",
+            ""
+        }
+    ]
+}
