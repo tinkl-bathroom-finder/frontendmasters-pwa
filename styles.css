@@ -107,7 +107,7 @@ body>#toolbar {
     background-color: var(--color-toolbar);
 }
 
-/*  */
+/* when app is in standalone mode, it will remove the install button */
 @media(display-mode: standalone) {
     #btnInstall {
         display: none;
