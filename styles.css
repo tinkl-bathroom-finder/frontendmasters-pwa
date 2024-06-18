@@ -107,4 +107,9 @@ body>#toolbar {
     background-color: var(--color-toolbar);
 }
 
-
+/*  */
+@media(display-mode: standalone) {
+    #btnInstall {
+        display: none;
+    }
+}
